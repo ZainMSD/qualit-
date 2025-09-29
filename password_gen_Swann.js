@@ -1,4 +1,4 @@
-import readlineSync from 'readline-sync';
+const readlineSync = require('readline-sync');
 
 const lowercase = "abcdefghijklmnopqrstuvwxyz";
 const uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -10,7 +10,9 @@ function generatePassword(length) {
     characterPool += lowercase;
     characterPool += uppercase;
     characterPool += numbers;
-    characterPool += symbols;
+
+    let quest = readlineSync.question("Inclure des symboles? (o/n): ");
+    if (quest.toLowerCase() === 'o') characterPool += symbols;
 
     let password = "";
     for (let i = 0; i < length; i++) {

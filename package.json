@@ -1,0 +1,23 @@
+{
+  "name": "qualit-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "password_gen_Swann.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node password_gen_Swann.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZainMSD/qualit-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZainMSD/qualit-/issues"
+  },
+  "homepage": "https://github.com/ZainMSD/qualit-#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
