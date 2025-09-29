@@ -11,8 +11,8 @@ Projet permettant de générer un mot de passe aléatoire en utilisant JavaScrip
    ```
 3. Installer les dépendances nécessaires (si applicable) :
    ```bash
-     npm install
-     ```
+   npm install
+   ```
 ### Utilisation
 Exécuter le script pour générer un mot de passe aléatoire :
    ```bash
